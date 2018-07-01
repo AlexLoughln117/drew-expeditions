@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drew Expeditions</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<!--build:css css/styles.min.css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css.map">
+	<link rel="stylesheet" href="css/styles.css">
+	<!--endbuild-->
+	<!--build:js js/main.min.js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!-- endbuild -->
+
+	<style type="text/css">
+	   
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark drew-nav" style="">
+		<div class="container">
+			 <a class="navbar-brand" href="#">
+		    drew expeditions
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item ">
+		        <a class="nav-link" href="#">our expeditions</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">FAQ</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">apply<span class="sr-only">(current)</span></a>
+		      </li>
+		    </ul>
+		  </div>
+		</div>
+		 
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid drew-hero">
+	  <div class="drew-hero-overlay">
+	  	<div class="container">
+	  		 <h1 class="display-4">Expedition Application</h1>
+	  	</div>
+	  </div>
+	</div>
+
+	<section id="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="copy">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia suscipit quam, sagittis dictum nulla scelerisque eu. Nam orci lacus, accumsan a blandit nec, finibus condimentum quam. Donec egestas, purus eget congue ultrices, quam odio mattis tortor, vitae fermentum neque diam non dolor. </p>
+						<p>Aliquam hendrerit imperdiet sodales. Maecenas porta lorem ut aliquet lacinia. Phasellus elementum augue ipsum, sed maximus nunc aliquam sed. Sed suscipit tempus mollis. Aenean quis aliquam dui. Sed dignissim cursus faucibus.</p>
+					</div>
+					<div class="form">
+						<h3>Register your interest</h3>
+						<div class="form-group">
+						  <div class="form-row">
+						  	    <div class="col-md-6">
+								<label for="drewFName">First Name:</label>
+								 <input type="text" class="form-control" id="drewFName" placeholder="First name" value="John">
+								</div>
+								<div class="col-md-6">
+								<label for="drewLastName">Last Name:</label>
+								 <input type="text" class="form-control" id="drewLastName">
+								</div>
+						  </div>
+						  <div class="form-row">
+						  	    <div class="col-md-6">
+								   <label for="drewInputEmail">Email Address:</label>
+                                   <input type="email" class="form-control" id="drewInputEmail" aria-describedby="emailHelp" placeholder="you@mail.com" required>
+								</div>
+								<div class="col-md-6">
+									<label for="drewPhoneNumber">Phone Number:</label>
+								   <input type="number" class="form-control" id="drewPhoneNumber" name="pnumber" min="6" >
+								</div>
+						  </div>
+						  <div class="form-row">
+                               <div class="col-md-12">
+                               	    <label for="expeditionSelect">Expedition you’re interested in:</label> 
+                               	    <select id="expeditionSelect" class="form-control" required>
+								        <option selected>Choose...</option>
+								        <option>...</option>
+								     </select>
+								     <div class="dropdown-info" style="">
+								     	<label for="otherSelect">Another dropdown:</label> <small id="emailHelp" class="form-text text-muted">(optional)</small>
+								     </div>
+                               	    <select id="otherSelect" class="form-control">
+								        <option selected>Choose...</option>
+								        <option>...</option>
+								     </select>
+                               </div>
+						  </div>
+						  <div class="form-row" style="margin-top: 25px;">
+						  	  <div class="col-md-12">
+						  	  	   <button type="submit" class="btn btn-primary drew-btn" style="">Send application <span>></span></button>
+						  	  </div>
+						  </div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 drew-link-boxes">
+					<a href="/" class="link-box link-box-one" style="">
+						<div class="link-box-overlay">
+							<p>Our Expeditions</p>
+						</div>
+					</a>
+					<a href="/"  class="link-box link-box-two" style="">
+						<div class="link-box-overlay">
+							<p>FAQ</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container footer-container">
+			 <hr>
+		     <p>&copy; drew expeditions</p>
+		</div>
+	</footer>
+
+</body>
+
+
+</html> 

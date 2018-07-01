@@ -1,0 +1,165 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drew Expeditions</title>
+	<link rel="stylesheet" href="css/styles.min.css">
+	<script src="js/main.min.js"></script>
+
+	<style type="text/css">
+	    body{background-color: #000;}
+	    footer{background-color: #fff;padding-bottom: 1rem;}
+	    footer p{margin-bottom: 0px;}
+	    #main{background-color: #fff;padding-top: 25px;}
+	    .nav-link {padding: .1rem 1rem;}
+		.navbar-dark .navbar-brand {color: #fff;}
+		.navbar-dark .navbar-nav .nav-link {color: #fff;margin: 0 15px;padding: 0;}
+		.navbar-dark .navbar-nav .active > .nav-link{color: #fff;}
+		.navbar-dark .navbar-nav .nav-link {color: #fff;}
+		.navbar-dark .navbar-nav .nav-link:hover {color: #23A0C7;}
+		.navbar-dark .navbar-brand:hover{color: #23A0C7;}
+		p{color: #383838;}
+		.active{border-bottom: 3px solid #fff;}
+		.form-row{margin-bottom: 15px;}
+		.drew-btn{background:#23A0C7;background: linear-gradient(240deg, #146186 25%, #23A0C7 25%);border-radius:4px;border: 0px;font-size: 16px;width: 212px;display: flex;justify-content: space-between;-webkit-transition: background 1s ease-out;  -moz-transition: background 1s ease-out;  
+	    -o-transition: background 1s ease-out;  
+	    transition: background 1s ease-out;  }
+		.drew-btn:hover span{}
+		.drew-nav{background: transparent;color: #fff;}
+		.drew-hero{text-align: center;background-image: url(images/tim-tiedemann-149766-unsplash.jpg);background-size: cover;color: #fff;margin-top: -56px;height: 437px;display: flex;justify-content: center;align-items: center;background-position: 50% 72%;padding: 0;margin-bottom: 0;}
+		.link-box{height: 242px;background-size: 130%;background-position: center; background-repeat: no-repeat;display: flex;justify-content: center;align-items: center;color: #fff;text-align: center;max-width: 382px;transition: all .15s ease-in-out;position: relative;}
+		.link-box:hover{text-decoration: none;background-size: 110%;}
+		.link-box-one{background-image: url(images/loic-mermilliod-213394-unsplash.jpg);}
+		.link-box-two{background-image: url(images/loic-mermilliod-213394-unsplash.jpg);margin-top: 25px;}
+
+		@media (max-width: 1000px){
+			.nav-item{margin-bottom: 7px;}
+			.link-box{background-size: cover;}
+			.link-box:hover{background-size: cover;}
+			.active {border-bottom: 0px solid #fff;}
+		}
+		@media (max-width: 800px){
+			.drew-link-boxes{margin-top: 25px;}
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark drew-nav" style="">
+		<div class="container">
+			 <a class="navbar-brand" href="#">
+		    drew expeditions
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;height: 40px;">
+		    <ul class="navbar-nav">
+		      <li class="nav-item ">
+		        <a class="nav-link" href="#">our expeditions</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">FAQ</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">apply<span class="sr-only">(current)</span></a>
+		      </li>
+		    </ul>
+		  </div>
+		</div>
+		 
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid drew-hero" style="">
+	  <div class="" style="background: linear-gradient(to top, rgba(0,0,0,0) 45%, rgba(0,0,0,1));height: 100%;width: 100%;display: flex;justify-content: center;align-items: center;padding: 4rem 2rem;">
+	  	<div class="container">
+	  		 <h1 class="display-4">Expedition Application</h1>
+	  	</div>
+	  </div>
+	</div>
+
+	<section id="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="copy" style="margin-bottom: 25px;">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia suscipit quam, sagittis dictum nulla scelerisque eu. Nam orci lacus, accumsan a blandit nec, finibus condimentum quam. Donec egestas, purus eget congue ultrices, quam odio mattis tortor, vitae fermentum neque diam non dolor. </p>
+						<p>Aliquam hendrerit imperdiet sodales. Maecenas porta lorem ut aliquet lacinia. Phasellus elementum augue ipsum, sed maximus nunc aliquam sed. Sed suscipit tempus mollis. Aenean quis aliquam dui. Sed dignissim cursus faucibus.</p>
+					</div>
+					<div class="form">
+						<h3 style="margin-bottom: 25px;">Register your interest</h3>
+						<div class="form-group">
+						  <div class="form-row">
+						  	    <div class="col-md-6">
+								<label for="drewFName">First Name:</label>
+								 <input type="text" class="form-control" id="drewFName" placeholder="First name" value="John">
+								</div>
+								<div class="col-md-6">
+								<label for="drewLastName">Last Name:</label>
+								 <input type="text" class="form-control" id="drewLastName">
+								</div>
+						  </div>
+						  <div class="form-row">
+						  	    <div class="col-md-6">
+								   <label for="drewInputEmail">Email Address:</label>
+                                   <input type="email" class="form-control" id="drewInputEmail" aria-describedby="emailHelp" placeholder="you@mail.com">
+								</div>
+								<div class="col-md-6">
+									<label for="drewPhoneNumber">Phone Number:</label>
+								   <input type="number" class="form-control" id="drewPhoneNumber" name="pnumber" min="6" >
+								</div>
+						  </div>
+						  <div class="form-row">
+                               <div class="col-md-12">
+                               	    <label for="expeditionSelect">Expedition you’re interested in:</label> 
+                               	    <select id="expeditionSelect" class="form-control">
+								        <option selected>Choose...</option>
+								        <option>...</option>
+								     </select>
+								     <div style="display: flex;justify-content: space-between;margin-top: 15px;">
+								     	<label for="otherSelect">Another dropdown:</label> <small id="emailHelp" class="form-text text-muted">(optional)</small>
+								     </div>
+                               	    <select id="otherSelect" class="form-control">
+								        <option selected>Choose...</option>
+								        <option>...</option>
+								     </select>
+                               </div>
+						  </div>
+						  <div class="form-row" style="margin-top: 25px;">
+						  	  <div class="col-md-12">
+						  	  	   <button type="submit" class="btn btn-primary drew-btn" style="">Send application <span>></span></button>
+						  	  </div>
+						  </div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 drew-link-boxes">
+					<a href="/" class="link-box link-box-one" style="">
+						<div class="overlay" style="background:rgba(0, 0, 0, 0.25);width:100%;height:100%;display: flex;justify-content: center;align-items: center;">
+							<p style="font-size: 36px;color: #fff;">Our Expeditions</p>
+						</div>
+					</a>
+					<a href="/"  class="link-box link-box-two" style="">
+						<div class="overlay" style="background:rgba(0, 0, 0, 0.25);width:100%;height:100%;display: flex;justify-content: center;align-items: center;">
+							<p style="font-size: 36px;color: #fff;">FAQ</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container" style="padding-top: 40px;">
+			 <hr style="color: #000;">
+		     <p style="text-align: center;">&copy; drew expeditions</p>
+		</div>
+	</footer>
+
+</body>
+
+
+</html> 

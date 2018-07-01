@@ -1,0 +1,185 @@
+.testing {
+  width: 71.42857%; }
+
+body {
+  background-color: #000;
+  font-family: 'Karla', sans-serif; }
+
+footer {
+  background-color: #fff;
+  padding-bottom: 1rem; }
+
+footer p {
+  margin-bottom: 0px; }
+
+#main {
+  background-color: #fff;
+  padding-top: 25px; }
+
+.nav-link {
+  padding: .1rem 1rem; }
+
+.navbar-dark .navbar-brand {
+  color: #fff; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  margin: 0 15px;
+  padding: 0; }
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #fff; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #23A0C7; }
+
+.navbar-dark .navbar-brand:hover {
+  color: #23A0C7; }
+
+#navbarNav {
+  justify-content: flex-end;
+  height: 40px; }
+
+p {
+  color: #383838; }
+
+.active {
+  border-bottom: 3px solid #fff; }
+
+.form-row {
+  margin-bottom: 15px; }
+
+.form h3 {
+  margin-bottom: 25px; }
+
+.drew-btn {
+  background: #23A0C7;
+  background: linear-gradient(240deg, #146186 25%, #23A0C7 25%);
+  border-radius: 4px;
+  border: 0px;
+  font-size: 16px;
+  width: 212px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-transition: background 1s ease-out;
+  -moz-transition: background 1s ease-out;
+  -o-transition: background 1s ease-out;
+  transition: background 1s ease-out; }
+
+.drew-btn:active {
+  background: #23A0C7 !important;
+  background: linear-gradient(240deg, #146186 25%, #23A0C7 25%) !important;
+  border-radius: 4px !important;
+  border: 0px !important;
+  font-size: 16px;
+  width: 212px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-transition: background 1s ease-out;
+  -moz-transition: background 1s ease-out;
+  -o-transition: background 1s ease-out;
+  transition: background 1s ease-out;
+  color: #000 !important; }
+
+.drew-nav {
+  background: transparent;
+  color: #fff; }
+
+.drew-hero {
+  text-align: center;
+  background-image: url(../images/tim-tiedemann-149766-unsplash.jpg);
+  background-size: cover;
+  color: #fff;
+  margin-top: -56px;
+  height: 437px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 72%;
+  padding: 0;
+  margin-bottom: 0; }
+
+.drew-hero-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 45%, black);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem; }
+
+.copy {
+  margin-bottom: 45px; }
+
+.link-box {
+  height: 242px;
+  background-size: 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  max-width: 382px;
+  transition: all .15s ease-in-out;
+  position: relative; }
+
+.link-box:hover {
+  text-decoration: none;
+  background-size: 110%; }
+
+.link-box-one {
+  background-image: url(../images/loic-mermilliod-213394-unsplash.jpg); }
+
+.link-box-two {
+  background-image: url(../images/jean-frederic-fortier-25858-unsplash.jpg);
+  margin-top: 25px; }
+
+.dropdown-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px; }
+
+.link-box-overlay {
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.link-box-overlay p {
+  font-size: 36px;
+  color: #fff; }
+
+.footer-container {
+  padding-top: 40px; }
+
+.footer-container p {
+  text-align: center; }
+
+@media (min-width: 1200px) {
+  .form-group {
+    width: 90%; } }
+
+@media (max-width: 1000px) {
+  .nav-item {
+    margin-bottom: 7px; }
+  .link-box {
+    background-size: cover; }
+  .link-box:hover {
+    background-size: cover; }
+  .active {
+    border-bottom: 0px solid #fff; } }
+
+@media (max-width: 800px) {
+  .drew-link-boxes {
+    margin-top: 25px; } }
+
+@media (max-width: 500px) {
+  .drew-hero-overlay h1 {
+    font-size: 40px; } }
