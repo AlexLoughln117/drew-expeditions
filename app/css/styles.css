@@ -14,7 +14,8 @@ footer p {
 
 #main {
   background-color: #fff;
-  padding-top: 25px; }
+  padding-top: 25px;
+  min-height: 60vh; }
 
 .nav-link {
   padding: .1rem 1rem; }
